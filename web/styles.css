@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.star-icon{
+  color: gold;
+}
+
+#product-list{
+    overflow-x: scroll;
+}
+
+#product-list::-webkit-scrollbar {
+  height: 10px; /* Mostly for horizontal scrollbars */
+  border-radius: 2px;
+}
+
+
+#product-list::-webkit-scrollbar-track {
+  background: #ffffff10; 
+  border-radius: 4px;
+}
+
+#product-list::-webkit-scrollbar-thumb
+{ 
+   border-radius: 4px;
+   background:  #ffffff25 ;
+}
+
+#product-list::-webkit-scrollbar-thumb:hover
+{ 
+  background:  #ffffff50 ;
+}
+
+/* Top left text */
+.cards {
+  position: relative;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.cards:hover {
+  box-shadow: 0px 0px 36px 5px #ffffff25;
+}
+
+.top-left {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.pro-nam {
+           width: 100%;
+           /* this code clamps based on specified lines */
+           overflow: hidden;
+          -webkit-box-orient: vertical;
+         -webkit-line-clamp: 5;
+         display: -webkit-box;
+        }
